@@ -62,7 +62,9 @@ INSERT INTO Book (book_id, title, author_id, category, available_copies) VALUES
 INSERT INTO Librarian (librarian_id, name, email) VALUES
 (1, 'Anna Lopez', 'anna.lopez@library.com'),
 (2, 'Mark Reyes', 'mark.reyes@library.com'),
-(3, 'Sarah Garcia', 'sarah.garcia@library.com');
+(3, 'Sarah Garcia', 'sarah.garcia@library.com'),
+(4, 'David Santos', 'david.santos@library.com'),
+(5, 'Lisa Cruz', 'lisa.cruz@library.com');
 
 INSERT INTO Borrowing (borrowing_id, student_id, book_id, librarian_id, borrow_date, return_date) VALUES
 (1, 1, 1, 1, '2026-09-01', '2026-09-08'),
